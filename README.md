@@ -1,22 +1,17 @@
 ## GA4GH Discovery Work Stream
 
-Welcome to the homepage for the GA4GH Discovery Work Stream. On this page you will find overviews of this Work Streams main projects,  operating procedures and details on how to get involved. For more information on GA4GH see https://ga4gh.org. 
+Welcome to the homepage for the GA4GH Discovery Work Stream. We build standards for federated, secured networks of data and services, forming an “Internet of Genomics”, and asking meaningful questions across it.
 
-### Operations
-lead by Harindra Arachchi and Marc Fiume.
+The Discovery Work Stream is lead by Harindra Arachchi and Marc Fiume. For details on how this Work Stream operates please read the [Discovery Work Stream Organizational Structure & Vision document](https://docs.google.com/document/d/1WFjZ9yBx8Vxn97QORRNQN7O3DBnhpwEUX2mK7f2C4EA/edit?ts=59ed3535#).
 
+For more information on GA4GH, please visit the [GA4GH Website](https://ga4gh.org).
 
 ### Products
 
-The following products are currently under development for this Work Stream
+The following products are currently under development for this Work Stream.
 
 #### Discovery Search API
 
 #### Discovery Networks API
 
 #### Beacon API
-
-
-### Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
