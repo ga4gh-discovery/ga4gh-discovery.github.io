@@ -12,9 +12,15 @@ The following products are currently under development for this Work Stream.
 
 #### Discovery Search API
 
+A standard for a global federated data sharing network that allows the querying, and subsequent -optional- processing of the results on a cloud environment. The in-development specification for this is [visible here](https://github.com/ga4gh-discovery/ga4gh-discovery-search-api).
+
+Planned implementations will be listed here.
+
 The Discovery Search Group meets every 2-3 weeks. [Meeting minutes are available to view here](https://docs.google.com/document/d/1lzN_pu8tATZXUvDtFKSG7IevE5TWLfFz0tdKfgtUSzU/edit?usp=sharing).
 
 #### Discovery Networks API
+
+This sepcification is in development.
 
 The Discovery Network Group meets every 4 weeks. [Meeting minutes are available to view here](https://docs.google.com/document/d/1xVXs-isSY_bX6uzUwuAX_L6qW7lKQAf8JZvZuXK6sTg/edit?usp=sharing).
 
