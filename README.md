@@ -8,7 +8,7 @@ For more information on GA4GH, please visit the [GA4GH Website](https://ga4gh.or
 
 The following products are currently under development for this Work Stream.
 
-#### Discovery Search API
+#### [Discovery Search API](https://github.com/ga4gh-discovery/ga4gh-discovery-search-api)
 
 #### Discovery Networks API
 
