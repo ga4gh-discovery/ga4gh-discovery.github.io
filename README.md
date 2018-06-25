@@ -2,7 +2,7 @@ Welcome to the homepage for the GA4GH Discovery Work Stream. We build standards 
 
 The Discovery Work Stream is lead by Harindra Arachchi and Marc Fiume. For details on how this Work Stream operates please read the [Discovery Work Stream Organizational Structure & Vision document](https://docs.google.com/document/d/1WFjZ9yBx8Vxn97QORRNQN7O3DBnhpwEUX2mK7f2C4EA/edit?ts=59ed3535#).
 
-This group meets at a high-level monthly. [Meeting minutes are available to view here](https://docs.google.com/document/d/1zrMC60S8GgyUaTdJtw9abDNeBqqtl1tw_znoichZm7A/edit?usp=sharing).
+This group meets at a high-level monthly. [Meeting minutes are available to view here](https://docs.google.com/document/d/1zrMC60S8GgyUaTdJtw9abDNeBqqtl1tw_znoichZm7A/edit?usp=sharing). In addition, the sub-groups listed below meet on their own schedules. Participation in these groups require participants to adhere to the [GA4GH Standards for Professional Conduct](https://www.ga4gh.org/docs/GA4GH-Standards-for-Professional-Conduct_22-Jan-2018.pdf).
 
 For more information on GA4GH, please visit the [GA4GH Website](https://ga4gh.org).
 
