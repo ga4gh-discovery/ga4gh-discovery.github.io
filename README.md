@@ -6,6 +6,9 @@ This group meets at a high-level monthly. [Meeting minutes are available to view
 
 For more information on GA4GH, please visit the [GA4GH Website](https://ga4gh.org).
 
+![alt text](https://www.ga4gh.org/gfx/GA-logo-horizontal-tag-RGB.svg "GA4GH Logo Motto")
+
+
 ### Products
 
 Product development in GA4GH follows a process outlined in a [GA4GH Product Approval Process Guide, in draft](https://docs.google.com/document/d/1UUJSnsPw32W5r1jaJ0vI11X0LLLygpAC9TNosjSge_w/edit#heading=h.tyqycskyykwh). Products developed by the work stream undergo an initial investigation phase, followed by a formal Proposed Product Phase, in which most of the work is done, followed by an formal Approval Phase during which the products gain GA4GH Approval. The formal steps require the approval of the Work Stream leads.
