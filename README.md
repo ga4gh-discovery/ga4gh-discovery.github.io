@@ -6,8 +6,7 @@ This group meets at a high-level monthly. [Meeting minutes are available to view
 
 For more information on GA4GH, please visit the [GA4GH Website](https://ga4gh.org).
 
-![alt text](https://www.ga4gh.org/gfx/GA-logo-horizontal-tag-RGB.svg "GA4GH Logo Motto")
-
+![alt text](https://www.ga4gh.org/wp-content/themes/ga4gh-theme/gfx/GA-logo-horizontal-tag-RGB.svg "GA4GH Logo Motto")
 
 ### Products
 
