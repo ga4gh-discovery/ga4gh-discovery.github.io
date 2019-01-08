@@ -62,6 +62,7 @@ Products:
   discovery_networks: 'Discovery Networks'
   schemablocks: 'GA4GH SchemaBlocks'
   search_api: 'Search API'
+
 related_sites:
   'ELIXIR beacon': 'ga4gh-beacon.github.io'
   GA4GH: 'www.ga4gh.org'

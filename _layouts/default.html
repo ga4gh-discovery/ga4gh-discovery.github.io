@@ -15,8 +15,8 @@
 
 <body>
   <div id="headband">
-        <img src="{{ 'assets/img/ga4gh_circle_42x42.png' | relative_url }}" style="float: left; margin-top: 4px; margin-left: 10px;" />
-    <img src="{{ 'assets/img/logo_beacon.png' | relative_url }}" style="float: right; width: 16px; margin-top: 8px; margin-right: 10px;" />
+    <img src="{{ 'assets/img' | relative_url }}/logo_topleft_{{ site.site_domain_name }}.png" id="logo_topleft" />
+    <img src="{{ 'assets/img' | relative_url }}/logo_topright_{{ site.site_domain_name }}.png" id="logo_topright" />
   </div>
   <div class="wrapper" style="margin-top: 20px">
     <header id="header">
@@ -55,7 +55,7 @@
 -->
       {% assign this_name = page.name | split: "." %}
       {% if page.category contains cat_key or this_name[0] == cat_key %}
-        {% assign cat_posts = site.documents | where: 'category', cat_key %}
+        {% assign cat_posts = site.documents | where: 'category', cat_key | sort: 'date' | reverse %}
         {% for post in cat_posts %}
 <!-- first featured posts -->
           {% if post.tags contains '.featured' %}
@@ -245,7 +245,7 @@
   {% endunless %}
 
 <!-- ######################################################################  -->
-<!--                            Local Edit                                  -->
+<!--                            Local Edit                                   -->
 <!-- ######################################################################  -->
 
 {% elsif site.source_path contains '/' %}
