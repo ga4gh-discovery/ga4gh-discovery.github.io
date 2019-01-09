@@ -1,6 +1,7 @@
 ---
 title: "Marc Fiume"
 layout: default
+date: 2017-10-25
 excerpt_separator: <!--more-->
 image_file: mfiume.jpg
 category:
