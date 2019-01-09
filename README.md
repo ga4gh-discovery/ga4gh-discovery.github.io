@@ -16,7 +16,7 @@ These pages have to fulfil 2 conditions:
 
 Posts can be arranged into sub-directories (e.g. `/_posts/news/2018-10-19-news-weather-is-nice.md`); this has no impact at all and can be used for keeping some order.
 
-With the current `/pages/_collction-name` configuration, pages can be added in one of the underscore-prefixed subdirectories ("collections"). Thise ar purely for organising the pages for editing etc.; they have no relation to the website structure itself (which is based on "categories" and "tags").
+With the current `/pages/_collction-name` configuration, pages can be added in one of the underscore-prefixed subdirectories ("collections"). These subdirectories are purely for organising the pages for editing etc.; they have no relation to the website structure itself (which is based on "categories" and "tags").
 
 ### Front Matter
 
