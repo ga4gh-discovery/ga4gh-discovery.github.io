@@ -34,4 +34,6 @@ A _Beacon_ is a web-accessible service that can be queried for information about
 
 The Beacon API specification is available to view in the [Beacon specification repository](https://github.com/ga4gh-beacon/specification), where links to further resources are available. 
 
-The Beacon Strategic Group meets every 2 weeks. [Meeting minutes are available to view here](https://docs.google.com/document/d/1Is4vcMBgtu_XatfKCityV5NpZ7FCthGifuuMnNrJb3Y/edit?usp=sharing).  
+The Beacon Strategic Group meets every 2 weeks. [Meeting minutes are available to view here](https://docs.google.com/document/d/1Is4vcMBgtu_XatfKCityV5NpZ7FCthGifuuMnNrJb3Y/edit?usp=sharing). 
+
+(backup)
