@@ -1,2 +1,92 @@
-theme: jekyll-theme-midnight
-title: GA4GH Discovery Work Stream
+label: 'GA4GH::Discovery'
+name: Beacon
+description: |
+  A Work Stream of the Global Alliance for Genomics and Health
+keywords: genomics, cloud, Beacon, DNA, sharing, GA4GH
+site_domain_name: ga4gh-discovery.github.io
+baseurl: ""
+site_parent_link: 'https://ga4gh.org'
+github_organisation: ga4gh-discovery
+show_downloads: true
+future: true
+
+# instructions for processing specific directories
+
+include:
+  - categories  # contains landing pages for each category
+  - tags        # contains landing pages for each tag
+collections_dir: pages
+collections:
+  beacon:
+    output: true
+    permalink: /beacon/:path/
+  networks:
+    output: true
+    permalink: /networks/:path/
+  searchapi:
+    output: true
+    permalink: /searchapi/:path/
+  schemablocks:
+    output: true
+    permalink: /schemablocks/:path/
+  people:
+    output: true
+    permalink: /people/:path/
+  howto:
+    output: true
+    permalink: /howto/:path/
+  minutes:
+    output: true
+    permalink: /minutes/:path/
+  news:
+    output: true
+    permalink: /news/:path/
+
+# navigation blocks can be used to separate different categories and add e.g. 
+# external link block(s), in combination with a properly modified layout
+
+nav_cat_blocks:
+  General: 'General,categories,hide'
+  Products: 'Workstream Products,categories,show'
+  related_sites: 'Related Sites,related_sites,show'
+
+General:
+  news: News
+  people: Participants
+  howto: 'Examples, Guides & FAQ'
+  minutes: 'Meeting minutes'
+  contact: Contacts
+
+Products:
+  beacon: 'Beacon'
+  discovery_networks: 'Discovery Networks'
+  schemablocks: 'GA4GH SchemaBlocks'
+  search_api: 'Search API'
+
+related_sites:
+  'ELIXIR beacon': 'http://ga4gh-beacon.github.io'
+  GA4GH: 'http://www.ga4gh.org'
+  'Beacon<span style="vertical-align: super; color: red; font-weight: 800;">+</span>': 'http://beacon.progenetix.org'
+  'beacon-network.org': 'http://beacon-network.org'
+  'GA4GH SchemaBlocks': 'http://schemablocks.org'
+
+# tag_cloud items
+
+cloud_tags:
+  - Beacon
+  - GA4GH
+  - admins
+  - contacts
+  - contributors
+  - developers
+  - leads
+  - press
+
+# additional Jekyll instructions
+
+plugins:
+ - jekyll-seo-tag
+type: website
+navigation_max_items: 4 # number of shown links in current category
+emptyArray: []          # dummy element for array initialisation
+

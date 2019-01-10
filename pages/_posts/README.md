@@ -2,12 +2,12 @@
 
 => The easiest way to create a new post is to copy and modify an old one from the same category. <=
 
-In the Jekyll framework used for this site, new web pages are created by adding Markdown pages to a (i.e. `_posts`) directory. With the current configuration, such pages reside inside subdirectories ("collections") inside the `/pages` root directory.
+In the Jekyll framework used for this site, new web pages are created by adding Markdown pages to this (i.e. `_posts`) directory.
 
 These pages have to fulfil 2 conditions:
 
 * they need a `YAML` front matter
-* for pages in `_posts` only: their names start with the ISO8601 formated date of the post
+* their names start with the ISO8601 formated date of the post
   * the date can be any date, you want the post to be associated with (e.g. `1967-11-11`)
   * the date can be in the future, with posts then only being processed
     * when this date is reached, or
@@ -15,8 +15,6 @@ These pages have to fulfil 2 conditions:
   * the leading date has to be followed by a dash `-` sign (e.g. `2018-10-19-news-weather-is-nice.md`)
 
 Posts can be arranged into sub-directories (e.g. `/_posts/news/2018-10-19-news-weather-is-nice.md`); this has no impact at all and can be used for keeping some order.
-
-With the current `/pages/_collction-name` configuration, pages can be added in one of the underscore-prefixed subdirectories ("collections"). These subdirectories are purely for organising the pages for editing etc.; they have no relation to the website structure itself (which is based on "categories" and "tags").
 
 ### Front Matter
 
