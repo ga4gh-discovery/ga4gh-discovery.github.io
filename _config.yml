@@ -38,9 +38,6 @@ collections:
   minutes:
     output: true
     permalink: /minutes/:path/
-  news:
-    output: true
-    permalink: /news/:path/
 
 # navigation blocks can be used to separate different categories and add e.g. 
 # external link block(s), in combination with a properly modified layout
@@ -49,6 +46,7 @@ nav_cat_blocks:
   General: 'General,categories,hide'
   Products: 'Workstream Products,categories,show'
   related_sites: 'Related Sites,related_sites,show'
+  github_projects: 'Github Projects,github_projects,show'
 
 General:
   news: News
@@ -70,6 +68,11 @@ related_sites:
   'beacon-network.org': 'http://beacon-network.org'
   'GA4GH SchemaBlocks': 'http://schemablocks.org'
 
+github_projects:
+  'Discovery': 'http://github.com/ga4gh-discovery/'
+  'ELIXIR Beacon': 'http://github.com/ga4gh-beacon/'
+  'SchemaBlocks': 'http://github.com/ga4gh-schemablocks/'
+
 # tag_cloud items
 
 cloud_tags:
@@ -81,6 +84,8 @@ cloud_tags:
   - developers
   - leads
   - press
+  - registry
+  - networks
 
 # additional Jekyll instructions
 
