@@ -26,9 +26,10 @@ tags:
 
 Coordinator, GA4GH Discovery Workstream  
 Global Alliance for Genomics and Health  
+EMBL-EBI, Wellcome Genome Campus  
 
 <!--more-->
 
-email []()  
-web []()  
+email [rishi.nag@ga4gh.org](mailto:rishi.nag@ga4gh.org)  
+web [EBI](https://www.ebi.ac.uk/about/people/rishi-nag)  
 
