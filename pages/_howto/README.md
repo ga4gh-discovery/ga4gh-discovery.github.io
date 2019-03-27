@@ -35,7 +35,7 @@ category:
 tags:
   - queries
   - definitions
-  - faq
+  - FAQ
 ---
 ```
 

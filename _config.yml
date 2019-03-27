@@ -15,6 +15,7 @@ future: true
 include:
   - categories  # contains landing pages for each category
   - tags        # contains landing pages for each tag
+
 collections_dir: pages
 collections:
   beacon:
@@ -23,6 +24,9 @@ collections:
   networks:
     output: true
     permalink: /networks/:path/
+  general:
+    output: true
+    permalink: /:path/
   searchapi:
     output: true
     permalink: /searchapi/:path/
@@ -41,7 +45,6 @@ collections:
 
 # navigation blocks can be used to separate different categories and add e.g. 
 # external link block(s), in combination with a properly modified layout
-
 nav_cat_blocks:
   General: 'General,categories,hide'
   Products: 'Workstream Products,categories,show'
@@ -61,6 +64,30 @@ Products:
   schemablocks: 'GA4GH SchemaBlocks'
   search_api: 'Search API'
 
+categories_year_sorted:
+  - news
+  - minutes
+
+tags_year_sorted:
+  - releases
+  - press
+
+# tag_cloud items
+cloud_tags:
+  - admins
+  - Beacon
+  - contacts
+  - contributors
+  - developers
+  - GA4GH
+  - leads
+  - press
+  - networks
+  - registry
+  - releases
+  - SchemaBlocks
+  - website
+
 related_sites:
   'ELIXIR beacon': 'http://ga4gh-beacon.github.io'
   GA4GH: 'http://www.ga4gh.org'
@@ -72,20 +99,6 @@ github_projects:
   'Discovery': 'http://github.com/ga4gh-discovery/'
   'ELIXIR Beacon': 'http://github.com/ga4gh-beacon/'
   'SchemaBlocks': 'http://github.com/ga4gh-schemablocks/'
-
-# tag_cloud items
-
-cloud_tags:
-  - Beacon
-  - GA4GH
-  - admins
-  - contacts
-  - contributors
-  - developers
-  - leads
-  - press
-  - registry
-  - networks
 
 # additional Jekyll instructions
 
