@@ -45,3 +45,5 @@ In the submission, the aim is to have several live implementations and the speci
 
 If you wish to be involved in the Case Discovery API, please contact Rishi Nag: [rishi.nag@ga4gh.org](mailto:rishi.nag@ga4gh.org).
 (The project will use the same mailing list / google group for now.)
+
+Project [Github](https://github.com/ga4gh-discovery/ga4gh-case-discovery)
