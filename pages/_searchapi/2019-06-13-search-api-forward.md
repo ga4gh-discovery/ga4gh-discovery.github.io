@@ -9,10 +9,12 @@ www_link: # a simple web address related to the post, e.g. https://www.ga4gh.org
 www_links_formatted:  # one or multiple complete links
 #  - '<a href="https://www.biorxiv.org" target="_blank">[biorXiv]</a>'
 pdf_file_name: # the name of a PDF (no path) somewhere in "assets", which will be auto-linked
-category: # please adjust
+categories: # please adjust
   - search_api
+  - news
 tags: # please adjust
   - SearchAPI
+  - roadmap
 ---
 
 ## {{ page.title }}
