@@ -18,6 +18,9 @@ include:
 
 collections_dir: pages
 collections:
+  doc:
+    output: true
+    permalink: /doc/:path/
   beacon:
     output: true
     permalink: /beacon/:path/
@@ -43,7 +46,7 @@ collections:
     output: true
     permalink: /minutes/:path/
 
-# navigation blocks can be used to separate different categories and add e.g. 
+# navigation blocks can be used to separate different categories and add e.g.
 # external link block(s), in combination with a properly modified layout
 nav_cat_blocks:
   General: 'General,categories,hide'
@@ -64,11 +67,11 @@ Products:
   schemablocks: 'GA4GH SchemaBlocks'
   search_api: 'Search API'
 
-categories_year_sorted:
+categories-date-sorted:
   - news
   - minutes
 
-tags_year_sorted:
+tags-date-sorted:
   - releases
   - press
 
@@ -86,6 +89,7 @@ cloud_tags:
   - registry
   - releases
   - SchemaBlocks
+  - SearchAPI
   - website
 
 related_sites:
@@ -107,4 +111,3 @@ plugins:
 type: website
 navigation_max_items: 4 # number of shown links in current category
 emptyArray: []          # dummy element for array initialisation
-
