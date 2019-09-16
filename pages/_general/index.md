@@ -42,7 +42,7 @@ The Case Discovery API aims to enable the federatable discoverability and exchan
 
 The in-development specification for the _Case Discovery API_ can be [found on github](https://github.com/ga4gh-discovery/ga4gh-case-discovery).
 
-(Fork of the Search API as of 2019/07)
+(Fork of the Search API as of 2019/07 - Please see the following article for more info: https://ga4gh-discovery.github.io/searchapi/2019-06-13-search-api-forward/)
 
 ##### Discovery Networks API
 
