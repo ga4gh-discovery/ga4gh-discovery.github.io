@@ -36,6 +36,14 @@ The Beacon API specification is now coordinated through the [ELIXIR Beacon proje
 
 The Discovery Search API aims at developing a component based approach towards the implementation of interfaces for genomic data and related information, for instance for global, federated data sharing through the querying, and subsequent optional processing of the results in a cloud environment. The in-development specification for the _Search API_ can be [accessed here](https://github.com/ga4gh-discovery/ga4gh-discovery-search-api).
 
+##### Case Discovery API
+
+The Case Discovery API aims to enable the federatable discoverability and exchange of case related data, including but not limited to, genotype, phenotype, and responsible clinician contact details. With a more limited use case than the Discovery Search API, it aims to deliver 1.0 much faster, looking to fulfil a current immediate use case put forward by the Matchmaker Exchange driver project. Deliverables will include a set of format documents and the protocol for search and response.
+
+The in-development specification for the _Case Discovery API_ can be [found on github](https://github.com/ga4gh-discovery/ga4gh-case-discovery).
+
+(Fork of the Search API as of 2019/07)
+
 ##### Discovery Networks API
 
 <a href="http://beacon-network.org" target="_blank"><img style="float: left; width: 161px;" src="{{ '/assets/img/BeaconNetwork.png' | relative_url }}" /></a>
