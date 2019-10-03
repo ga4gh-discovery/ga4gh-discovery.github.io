@@ -88,7 +88,7 @@ cloud_tags:
   - roadmap
 
 related_sites:
-  'ELIXIR beacon': 'http://ga4gh-beacon.github.io'
+  'Beacon Project': 'http://ga4gh-beacon.github.io'
   'GA4GH SchemaBlocks': 'http://schemablocks.org'
   GA4GH: 'http://www.ga4gh.org'
   'Beacon<span style="vertical-align: super; color: red; font-weight: 800;">+</span>': 'http://beacon.progenetix.org'
