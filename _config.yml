@@ -27,9 +27,6 @@ collections:
   networks:
     output: true
     permalink: /networks/:path/
-  general:
-    output: true
-    permalink: /:path/
   searchapi:
     output: true
     permalink: /searchapi/:path/
@@ -39,9 +36,6 @@ collections:
   people:
     output: true
     permalink: /people/:path/
-  howto:
-    output: true
-    permalink: /howto/:path/
   minutes:
     output: true
     permalink: /minutes/:path/
@@ -91,13 +85,14 @@ cloud_tags:
   - SchemaBlocks
   - SearchAPI
   - website
+  - roadmap
 
 related_sites:
   'ELIXIR beacon': 'http://ga4gh-beacon.github.io'
+  'GA4GH SchemaBlocks': 'http://schemablocks.org'
   GA4GH: 'http://www.ga4gh.org'
   'Beacon<span style="vertical-align: super; color: red; font-weight: 800;">+</span>': 'http://beacon.progenetix.org'
   'beacon-network.org': 'http://beacon-network.org'
-  'GA4GH SchemaBlocks': 'http://schemablocks.org'
 
 github_projects:
   'Discovery': 'http://github.com/ga4gh-discovery/'
