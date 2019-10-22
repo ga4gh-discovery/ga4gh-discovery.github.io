@@ -3,6 +3,7 @@ title: "Michael Baudis"
 layout: default
 date: 2018-12-12
 excerpt_separator: <!--more-->
+excerpt_link: 'https://info.baudisgroup.org/group/Michael_Baudis/'
 image_file: 'mbaudis.jpg'
 category:
   - people
