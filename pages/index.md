@@ -26,7 +26,7 @@ The following products are currently under development for this Work Stream.
 
 ##### Beacon API
 
-<a href="http://beacon-project.io" target="_blank"><img style="float: right; width: 40px; clear: none" src="{{ '/assets/img/logo_beacon.png' | relative_url }}" />A _Beacon_ is a federated, web-accessible service that can be queried for information about a specific genomic variant, e.g. a single nucleotide polymorphism (SNP/SNV) or a copy number variation (CNV), and reports about its existence in the queried resources. Future versions of the Beacon protocol will support different usage scenarios and offer the opportunity to link to the matched data using e.g. a [_handover_](https://beacon-project.io/roadmap/handover.html) scenario.
+<a href="http://beacon-project.io" target="_blank"><img style="float: right; width: 40px; clear: none" src="{{ '/assets/img/logo_beacon.png' | relative_url }}" /></a>A _Beacon_ is a federated, web-accessible service that can be queried for information about a specific genomic variant, e.g. a single nucleotide polymorphism (SNP/SNV) or a copy number variation (CNV), and reports about its existence in the queried resources. Future versions of the Beacon protocol will support different usage scenarios and offer the opportunity to link to the matched data using e.g. a [_handover_](https://beacon-project.io/roadmap/handover.html) scenario.
 
 The Beacon API specification is being developed through the [ELIXIR Beacon project](http://beacon-project.io) and accessible there or directly trough its [repository](https://github.com/ga4gh-beacon/specification).
 
