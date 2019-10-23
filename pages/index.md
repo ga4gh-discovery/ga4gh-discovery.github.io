@@ -51,7 +51,7 @@ The BeaconNetwork was the first successful implementation of an open, federated 
 * Responsible Discovery co-chair: [Marc Fiume](https://oicr.on.ca/investigators/marc-fiume/)
 
 
-#####{S}[B] SchemaBlocks
+##### {S}[B] SchemaBlocks
 
 <img style="float: left; margin: 20px 20px 10px 0px; width: 60px; clear: none;" src="{{ "assets/img/logo-schemablocks-120x120-no-logo.png" | relative_url}}" />SchemaBlocks represents a __cross work stream, cross driver project__ initiative to document object standards and prototypes, as well as common data formats and semantics used throughout the GA4GH ecosystem. While products and implementation may be completely based on SchemaBlocks models, this project does not attempt to develop a rigid, complete schema but rather to provide the object vocabulary and semantics for a large range of developments.
 
