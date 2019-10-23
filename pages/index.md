@@ -46,9 +46,7 @@ The work of the "networks" group addresses several areas:
 * [Service Registry](https://github.com/ga4gh-discovery/ga4gh-service-registry/) (called _Networks_)
 * [Beacon Network](https://beacon-network.org/) (search engine on top of the Beacon protocol)
 
-<a href="http://beacon-network.org" target="_blank"><img style="float: left; width: 161px;" src="{{ '/assets/img/BeaconNetwork.png' | relative_url }}" /></a>BeaconNetwork was the first successful implementation of an open, federated API for world-wide querying of genome resources. Current and future developments target especially the integration of user authentication for different access levels, extensions to the query language as provided through the emerging Beacon API and the evaluation of different topologies, especially with respect to security concerns.
-
-<a href="http://beacon-project.io/network.html" target="_blank"><img style="float: right; width: 130px;" src="{{ '/assets/img/logo_beacon-network.png' | relative_url }}" /></a>Other aspects of the "networks" development address the identification of genomics resources ant their offered data content. The ELIXIR Beacon project focusses on the development of a Beacon network across [ELIXIR](https://www.elixir-europe.org) nodes, utilising the ELIXIR AAI.
+BeaconNetwork was the first successful implementation of an open, federated API for world-wide querying of genome resources.
 
 * Responsible Discovery co-chair: [Marc Fiume](https://oicr.on.ca/investigators/marc-fiume/)
 * Project leads
