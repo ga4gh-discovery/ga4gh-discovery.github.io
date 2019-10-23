@@ -40,7 +40,7 @@ The Discovery Search API aims at developing a component based approach towards t
 
 ##### Discovery Networks
 
-The work of the "networks" group addresses several areas:
+<a href="http://beacon-network.org" target="_blank"><img style="float: right; width: 161px;" src="{{ '/assets/img/BeaconNetwork.png' | relative_url }}" /></a>The work of the "networks" group addresses several areas:
 
 * [Tool Registry Service](https://github.com/ga4gh/tool-registry-service-schemas)
 * [Service Registry](https://github.com/ga4gh-discovery/ga4gh-service-registry/) (called _Networks_)
