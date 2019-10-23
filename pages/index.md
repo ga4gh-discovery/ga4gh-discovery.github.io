@@ -10,7 +10,7 @@ category:
 
 ## {{page.title}}
 
-Welcome to the homepage for the GA4GH Discovery Work Stream. We build standards for federated, secured networks of data and services, forming an “Internet of Genomics”, and asking meaningful questions across it.
+The [GA4GH Discovery Work Stream](http://ga4gh-discovery.github.io) builds and coordinates standards for federated, secured networks of data and services, to form an “Internet of Genomics” for enabling data discovery and retrieval in health research and clinical genomics.
 
 The Discovery Work Stream is lead by Marc Fiume and Michael Baudis. For details on how this Work Stream operates please read the [Discovery Work Stream Organizational Structure & Vision document](https://docs.google.com/document/d/1WFjZ9yBx8Vxn97QORRNQN7O3DBnhpwEUX2mK7f2C4EA/edit?ts=59ed3535#).
 
