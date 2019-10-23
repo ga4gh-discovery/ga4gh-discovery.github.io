@@ -26,15 +26,19 @@ The following products are currently under development for this Work Stream.
 
 ##### Beacon API
 
-<a href="http://beacon-project.io" target="_blank"><img style="float: right; width: 40px;" src="{{ '/assets/img/logo_beacon.png' | relative_url }}" />
+<a href="http://beacon-project.io" target="_blank"><img style="float: right; width: 40px; clear: none" src="{{ '/assets/img/logo_beacon.png' | relative_url }}" /></a>A _Beacon_ is a federated, web-accessible service that can be queried for information about a specific genomic variant, e.g. a single nucleotide polymorphism (SNP/SNV) or a copy number variation (CNV), and reports about its existence in the queried resources. Future versions of the Beacon protocol will support different usage scenarios and offer the opportunity to link to the matched data using e.g. a [_handover_](https://beacon-project.io/roadmap/handover.html) scenario.
 
-A _Beacon_ is a federated, web-accessible service that can be queried for information about a specific genomic variant, e.g. a single nucleotide polymorphism (SNP/SNV) or a copy number variation (CNV), and reports about its existence in the queried resources. Future versions of the Beacon protocol will support different usage scenarios and offer the opportunity to link to the matched data using e.g. a [_handover_](https://beacon-project.io/roadmap/handover.html) scenario.
+The Beacon API specification is being developed through the [ELIXIR Beacon project](http://beacon-project.io) and accessible there or directly trough its [repository](https://github.com/ga4gh-beacon/specification).
 
-The Beacon API specification is now coordinated through the [ELIXIR Beacon project](http://beacon-project.io) and accessible there or directly trough its [repository](https://github.com/ga4gh-beacon/specification). 
+* Responsible Discovery co-chair: [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
+
 
 ##### Discovery Search API
 
 The Discovery Search API aims at developing a component based approach towards the implementation of interfaces for genomic data and related information, for instance for global, federated data sharing through the querying, and subsequent optional processing of the results in a cloud environment. The in-development specification for the _Search API_ can be [accessed here](https://github.com/ga4gh-discovery/ga4gh-discovery-search-api).
+
+* Responsible Discovery co-chair: [Marc Fiume](https://oicr.on.ca/investigators/marc-fiume/)
+
 
 ##### Discovery Networks API
 
@@ -42,14 +46,17 @@ The Discovery Search API aims at developing a component based approach towards t
 
 The BeaconNetwork was the first successful implementation of an open, federated API for world-wide querying of genome resources. Current and future developments target especially the integration of user authentication for different access levels, extensions to the query language as provided through the emerging Beacon API and the evaluation of different topologies, especially with respect to security concerns.
 
-<a href="http://beacon-project.io/network.html" target="_blank"><img style="float: right; width: 130px;" src="{{ '/assets/img/logo_beacon-network.png' | relative_url }}" />
+<a href="http://beacon-project.io/network.html" target="_blank"><img style="float: right; width: 130px;" src="{{ '/assets/img/logo_beacon-network.png' | relative_url }}" /></a>Other aspects of the "networks" development address the identification of genomics resources ant their offered data content. The ELIXIR Beacon project focusses on the development of a Beacon network across [ELIXIR](https://www.elixir-europe.org) nodes, utilising the ELIXIR AAI.
 
-Other aspects of the "networks" development address the identification of genomics resources ant their offered data content. The ELIXIR Beacon project focusses on the development of a Beacon network across [ELIXIR](https://www.elixir-europe.org) nodes, utilising the ELIXIR AAI.
+* Responsible Discovery co-chair: [Marc Fiume](https://oicr.on.ca/investigators/marc-fiume/)
 
-##### SchemaBlocks
 
-SchemaBlocks represents a cross work stream, cross driver project attempt to document object standards and prototypes, as well as common data formats and semantics. While products and implementation may be completely based on SchemaBlocks models, this project does not attempt to develop a rigid, complete schema but rather to provide the object vocabulary and semantics for a large range of developments.
+##### {S}[B] SchemaBlocks
 
-The SchemaBlocks site can be accessed though the permanent link [schemablocks.org](http://schemablocks.org).
+<img style="float: left; margin: 20px 20px 10px 0px; width: 60px; clear: none;" src="{{ "assets/img/logo-schemablocks-120x120-no-logo.png" | relative_url}}" />SchemaBlocks represents a __cross work stream, cross driver project__ initiative to document object standards and prototypes, as well as common data formats and semantics used throughout the GA4GH ecosystem. While products and implementation may be completely based on SchemaBlocks models, this project does not attempt to develop a rigid, complete schema but rather to provide the object vocabulary and semantics for a large range of developments.
+
+More information about the _SchemaBlocks_ project as well as the current schema can be found on the project's site at [schemablocks.org](http://schemablocks.org).
+
+* Responsible Discovery co-chair: [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
 
 
