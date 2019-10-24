@@ -29,6 +29,10 @@ The following products are currently under development for this Work Stream.
 The Beacon API specification is a [__GA4GH approved standard__](https://www.ga4gh.org/genomic-data-toolkit/). It is being developed through the [ELIXIR Beacon project](http://beacon-project.io) and accessible there or directly trough its [repository](https://github.com/ga4gh-beacon/specification).
 
 * Responsible Discovery co-chair: [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
+* Project leads:
+    - Jordi Rambla
+    - Juha Törnroos
+    - Gary Saunders (ELIXIR project coordinator)
 
 
 ##### Discovery Search API
@@ -62,5 +66,6 @@ More information about the _SchemaBlocks_ project as well as the current schema 
 * Responsible Discovery co-chair: [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
 * Project leads:
     - Melanie Courtot
+    - Michael Baudis
 
 
