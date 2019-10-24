@@ -61,6 +61,6 @@ More information about the _SchemaBlocks_ project as well as the current schema 
 
 * Responsible Discovery co-chair: [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
 * Project leads:
-    - Jordi Rambla
+    - Melanie Courtot
 
 
