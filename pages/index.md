@@ -29,33 +29,35 @@ The following products are currently under development for this Work Stream.
 The Beacon API specification is a [__GA4GH approved standard__](https://www.ga4gh.org/genomic-data-toolkit/). It is being developed through the [ELIXIR Beacon project](http://beacon-project.io) and accessible there or directly trough its [repository](https://github.com/ga4gh-beacon/specification).
 
 * Responsible Discovery co-chair: [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
-* Project leads:
+* Product leads:
     - Jordi Rambla
     - Juha Törnroos
     - Gary Saunders (ELIXIR project coordinator)
 
+##### Search
 
-##### Discovery Search API
+[Search](https://github.com/ga4gh-discovery/ga4gh-discovery-search) is an upcoming standard for searching of biomedical data with support for federation across organizational boundaries.
 
-The Discovery Search API aims at developing a component based approach towards the implementation of interfaces for genomic data and related information, for instance for global, federated data sharing through the querying, and subsequent optional processing of the results in a cloud environment. The in-development specification for the _Search API_ can be [accessed here](https://github.com/ga4gh-discovery/ga4gh-discovery-search-api).
+Contacts:
 
-* Responsible Discovery co-chair: [Marc Fiume](https://oicr.on.ca/investigators/marc-fiume/)
+* Responsible Discovery co-chair: [Marc Fiume](/people/Marc-Fiume/)
+* Product leads
+    - [Miro Cupak](/people/Miro-Cupak/)
+    - Aaron Kemp
+
+##### Networks
+
+Networks group works on a collection of standards enabling discovery of services. This currently includes 2 [__GA4GH approved standards__](https://www.ga4gh.org/genomic-data-toolkit/):
+
+- [Service Registry](https://github.com/ga4gh-discovery/ga4gh-service-registry) - API specification for services providing information about other GA4GH services, primarily for the purpose of organizing services into networks or groups and service discovery across organizational boundaries.
+- [Service Info](https://github.com/ga4gh-discovery/ga4gh-service-info) - API specification for services to advertise information about themselves.
 
 
-##### Discovery Networks
+Contacts:
 
-<a href="http://beacon-network.org" target="_blank"><img style="float: right; width: 161px;" src="{{ '/assets/img/BeaconNetwork.png' | relative_url }}" /></a>The work of the "networks" group addresses several areas:
-
-* [Tool Registry Service](https://github.com/ga4gh/tool-registry-service-schemas)
-* [Service Registry](https://github.com/ga4gh-discovery/ga4gh-service-registry/) (called _Networks_)
-* [Beacon Network](https://beacon-network.org/) (search engine on top of the Beacon protocol)
-
-BeaconNetwork was the first successful implementation of an open, federated API for world-wide querying of genome resources.
-
-* Responsible Discovery co-chair: [Marc Fiume](https://oicr.on.ca/investigators/marc-fiume/)
-* Project leads
-    - Miro Cupak
-    - Juha Törnroos (for the ELIXIR networks implementation)
+* Responsible Discovery co-chair: [Marc Fiume](/people/Marc-Fiume/)
+* Product leads
+    - [Miro Cupak](/people/Miro-Cupak/)
 
 ##### {S}[B] SchemaBlocks
 
@@ -64,7 +66,7 @@ BeaconNetwork was the first successful implementation of an open, federated API 
 More information about the _SchemaBlocks_ project as well as the current schema can be found on the project's site at [schemablocks.org](http://schemablocks.org).
 
 * Responsible Discovery co-chair: [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
-* Project leads:
+* Product leads:
     - Melanie Courtot
     - Michael Baudis
 

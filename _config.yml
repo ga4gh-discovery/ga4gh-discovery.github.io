@@ -27,9 +27,9 @@ collections:
   networks:
     output: true
     permalink: /networks/:path/
-  searchapi:
+  search:
     output: true
-    permalink: /searchapi/:path/
+    permalink: /search/:path/
   schemablocks:
     output: true
     permalink: /schemablocks/:path/
@@ -57,9 +57,9 @@ General:
 
 Products:
   beacon: 'Beacon'
-  discovery_networks: 'Discovery Networks'
+  networks: 'Networks'
   schemablocks: 'GA4GH SchemaBlocks'
-  search_api: 'Search API'
+  search: 'Search'
 
 categories-date-sorted:
   - news
