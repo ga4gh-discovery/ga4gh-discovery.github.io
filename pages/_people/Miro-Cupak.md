@@ -19,12 +19,12 @@ tags:
 
 ## {{ page.title }}
 
-Developer  
-DNAstack  
-Lead Discovery Networks 
+Lead, GA4GH Discovery Networks
+
+Co-lead, GA4GH Discovery Search
+
+VP Engineering, DNAstack
 
 <!--more-->
 
-email []()  
-web [DNAstack](http://dnastack.com)  
-
+web [mirocupak.com](https://mirocupak.com/), [dnastack.com](http://dnastack.com)
