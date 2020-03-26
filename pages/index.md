@@ -31,6 +31,7 @@ The Beacon API specification is a [__GA4GH approved standard__](https://www.ga4g
 * Responsible Discovery co-chair: [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
 * Product leads:
     - Jordi Rambla
+    - Tony Brooks
     - Juha Törnroos
     - Gary Saunders (ELIXIR project coordinator)
 
