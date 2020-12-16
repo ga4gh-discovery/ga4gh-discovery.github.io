@@ -21,7 +21,7 @@ tags:
 
 ## {{ page.title }}
 
-Lead, Discovery Search API  
+Previously Lead, Discovery Search / Case Discovery API (No longer active)
 Senior Web Developer, Wellome Sanger Institute, Hinxton  
 Primary work: [DECIPHER](https://www.sanger.ac.uk/science/tools/decipher-mapping-clinical-genome)  
 
