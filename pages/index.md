@@ -26,7 +26,9 @@ The following products are currently under development for this Work Stream.
 
 <a href="http://beacon-project.io" target="_blank"><img style="float: right; width: 40px; clear: none" src="{{ '/assets/img/logo_beacon.png' | relative_url }}" /></a>A _Beacon_ is a federated, web-accessible service that can be queried for information about a specific genomic variant, e.g. a single nucleotide polymorphism (SNP/SNV) or a copy number variation (CNV), and reports about its existence in the queried resources. Current versions of the Beacon protocol support different usage scenarios and offer the opportunity to link to the matched data using e.g. a [_handover_](https://beacon-project.io/roadmap/handover.html) protocol.
 
-The Beacon API specification is a [__GA4GH approved standard__](https://www.ga4gh.org/genomic-data-toolkit/). It is being developed through the [ELIXIR Beacon project](http://beacon-project.io) and accessible there or directly trough its [repository](https://github.com/ga4gh-beacon/specification).
+The Beacon API specification is a [__GA4GH approved standard__](https://www.ga4gh.org/genomic-data-toolkit/). It is being developed through the [ELIXIR Beacon project](http://beacon-project.io) and accessible there or directly trough its [repository](https://github.com/ga4gh-beacon/).
+
+The Beacon API is undergoing a major overhaul for its version 2 which is expected to be launched in late 2021. Updated information can be found [on the project website](http://beacon-project.io) and in the various **v2** labeled repositories in its [Github space](https://github.com/ga4gh-beacon/).
 
 * Responsible Discovery co-chair: [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
 * Product leads:
@@ -35,9 +37,9 @@ The Beacon API specification is a [__GA4GH approved standard__](https://www.ga4g
     - Juha Törnroos
     - Gary Saunders (ELIXIR project coordinator)
 
-##### Search
+##### Data Connect
 
-[Search](https://github.com/ga4gh-discovery/ga4gh-discovery-search) is an upcoming standard for searching of biomedical data with support for federation across organizational boundaries.
+[Data Connect](https://github.com/ga4gh-discovery/data-connect/) is an upcoming standard for searching of biomedical data with support for federation across organizational boundaries.
 
 Contacts:
 
