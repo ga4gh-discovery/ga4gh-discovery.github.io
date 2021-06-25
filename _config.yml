@@ -59,7 +59,7 @@ Products:
   beacon: 'Beacon'
   networks: 'Networks'
   schemablocks: 'GA4GH SchemaBlocks'
-  search: 'Search'
+  search: 'Data Connect'
 
 categories-date-sorted:
   - news
