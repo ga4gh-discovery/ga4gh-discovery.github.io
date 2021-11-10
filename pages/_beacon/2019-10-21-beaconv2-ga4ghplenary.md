@@ -3,7 +3,7 @@ title: 'Beacon v2.0 - Towards a modular Beacon protocol empowering clinical use'
 layout: default
 author: "@mbaudis"
 date: 2019-10-21
-excerpt_link: 'https://beacon-project.io/specification/2019-10-21-beaconv2-ga4ghplenary/'
+excerpt_link:
 excerpt_separator: <!--more-->
 www_links_formatted:
 category:
