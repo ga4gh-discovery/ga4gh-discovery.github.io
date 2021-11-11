@@ -16,7 +16,8 @@ tags:
 ## {{ page.title }}
 
 #### Federated discovery and sharing of genomic data using Beacons
-##### Marc Fiume, Miroslav Cupak, Stephen Keenan, Jordi Rambla, Sabela de la Torre, Stephanie O. M. Dyke, Anthony J. Brookes, Knox Carey, David Lloyd, Peter Goodhand, Maximilian Haeussler, Michael Baudis, Heinz Stockinger, Lena Dolman, Ilkka Lappalainen, Juha Törnroos, Mikael Linden, J. Dylan Spalding, Saif Ur-Rehman, Angela Page, Paul Flicek, Stephen Sherry, David Haussler, Susheel Varma, Gary Saunders and Serena Scollen 
+##### Marc Fiume, Miroslav Cupak, Stephen Keenan, Jordi Rambla, Sabela de la Torre, Stephanie O. M. Dyke, Anthony J. Brookes, Knox Carey, David Lloyd, Peter Goodhand, Maximilian Haeussler, Michael Baudis, Heinz Stockinger, Lena Dolman, Ilkka Lappalainen, Juha Törnroos, Mikael Linden, J. Dylan Spalding, Saif Ur-Rehman, Angela Page, Paul Flicek, Stephen Sherry, David Haussler, Susheel Varma, Gary Saunders and Serena Scollen
 
 <!--more-->
+
 Today, Nature Biotechnology published the Beacon manuscript "Federated discovery and sharing of genomic data using Beacons". This was accompanied by a GA4GH press release. Enjoy!

@@ -21,24 +21,9 @@ collections:
   doc:
     output: true
     permalink: /doc/:path/
-  beacon:
-    output: true
-    permalink: /beacon/:path/
-  networks:
-    output: true
-    permalink: /networks/:path/
-  search:
-    output: true
-    permalink: /search/:path/
-  schemablocks:
-    output: true
-    permalink: /schemablocks/:path/
   people:
     output: true
     permalink: /people/:path/
-  minutes:
-    output: true
-    permalink: /minutes/:path/
 
 # navigation blocks can be used to separate different categories and add e.g.
 # external link block(s), in combination with a properly modified layout

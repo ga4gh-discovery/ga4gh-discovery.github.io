@@ -35,11 +35,11 @@ my $config			=		{
 	output_pre		=>	 '+generated-podmd-doc',
 	category			=>	 'howto',
 	tags					=>	[ qw(code documentation) ],
-	md_starts			=>	[ '^=podmd', '\/\*podmd', '^# podmd' ],
-	md_stops			=>	[ '^=cut', 'end_podmd\*\/', '^# end_podmd' ],
+	md_starts			=>	[ '^=podmd', '\/\*podmd', '^# podmd', '^\s*?\"\"\"podmd' ],
+	md_stops			=>	[ '^=cut', 'end_podmd\*\/', '^# end_podmd', '^\s*?podmd\"\"\"' ],
 	packages			=>	{
 		ProgenetixTemplate	=>	{
-			input				=>	'.',
+			input				=>	['.'],
 			extensions	=>	[ '.pl' ],
 			language		=>	'Perl',
 		},
@@ -58,28 +58,28 @@ mkdir $out_dir;
 foreach my $scope (keys %{ $config->{packages} }) {
 
 	my $package		=		$config->{packages}->{$scope};
-	my $in_dir		=		$package->{input};
-	if ($in_dir =~ /^\.\.?\//) {
-		$in_dir			=		$here_path.'/'.$in_dir }
-	print Dumper('DIR: '.$in_dir);
-	opendir DIR, $in_dir;
-	my @cFiles  	=   grep( /\.\w+?$/, readdir(DIR));
-	close DIR;
+	foreach my $in_dir (@{ $package->{input} }) {
+    if ($in_dir =~ /^\.\.?\//) {
+      $in_dir			=		$here_path.'/'.$in_dir }
+    print Dumper('DIR: '.$in_dir);
+    opendir DIR, $in_dir;
+    my @cFiles  	=   grep( /\.\w+?$/, readdir(DIR));
+    close DIR;
 
-	foreach my $cfName (@cFiles) {
+    foreach my $cfName (@cFiles) {
 
-		if (! grep{ $cfName =~ /$_$/ } @{ $package->{extensions} }) { next }
+      if (! grep{ $cfName =~ /$_$/ } @{ $package->{extensions} }) { next }
 
-		print Dumper($cfName);
+      print Dumper($cfName);
 
-		my $cFile		=		join('/', $in_dir, $cfName);
-		open  FILE, "$cFile" or die "No file $cFile $!";
-		local   $/;          	# no input separator
-		my @podData =   split(/\r\n?|\n/, <FILE>);
-		close FILE;
+      my $cFile		=		join('/', $in_dir, $cfName);
+      open  FILE, "$cFile" or die "No file $cFile $!";
+      local   $/;          	# no input separator
+      my @podData =   split(/\r\n?|\n/, <FILE>);
+      close FILE;
 
-		my $flag		=		-1;
-		my @md;
+      my $flag		=		-1;
+      my @md;
 
 =podmd
 For the scanned files, comment lines are read in if they are between one of the
@@ -95,16 +95,16 @@ tags - so either use HTML for those or pre-pend them with a space.
 
 =cut
 
-		foreach my $line (@podData) {
-			if (grep{ $line =~ /$_/ } @{ $config->{md_stops} },  @{ $package->{md_stops} }) { $flag = -1 }
-			if ($flag == 1) {
-				$line		=~	s/^\# //;
-				push(@md, $line);
-			}
-			if (grep{ $line =~ /$_/ } @{ $config->{md_starts} },  @{ $package->{md_starts} }) { $flag = 1 }
-		}
+      foreach my $line (@podData) {
+        if (grep{ $line =~ /$_/ } @{ $config->{md_stops} },  @{ $package->{md_stops} }) { $flag = -1 }
+        if ($flag == 1) {
+          $line		=~	s/^\# //;
+          push(@md, $line);
+        }
+        if (grep{ $line =~ /$_/ } @{ $config->{md_starts} },  @{ $package->{md_starts} }) { $flag = 1 }
+      }
 
-		if (! grep{ /.../ } @md) { next }
+      if (! grep{ /.../ } @md) { next }
 
 =podmd
 No file is created if there isn't any content in the text buffer.
@@ -121,12 +121,12 @@ file dependent parameters into a standard _Jekyll_ YAML header:
 
 =cut
 
-		my $addTags	=		join("\n", map{ "  - ".$_ } (@{ $config->{tags} }, @{ $package->{tags} }) );
-		my $mdFile	=		join('/', $out_dir, join('-', $config->{output_pre}, $scope, $cfName));
-		$mdFile			=~	s/\.\w+?$/.md/;
-# podmd
-# ```
-		my $mdFtxt	=		<<END;
+      my $addTags	=		join("\n", map{ "  - ".$_ } (@{ $config->{tags} }, @{ $package->{tags} }, $package->{language}, $scope) );
+      my $mdFile	=		join('/', $out_dir, join('-', $config->{output_pre}, $scope, $cfName));
+      $mdFile			=~	s/\.\w+?$/.md/;
+  # podmd
+  # ```
+      my $mdFtxt	=		<<END;
 ---
 title: "$scope::$cfName $package->{language} Code Documentation"
 layout: default
@@ -136,8 +136,6 @@ date: $today
 category:
   - $config->{category}
 tags:
-  - $package->{language}
-  - $scope
 $addTags
 ---
 
@@ -149,15 +147,16 @@ END
 # ```
 # end_podmd
 
-		if ($package->{web_source_link}) {
-			$mdFtxt .=	"* [Source Link](".$package->{web_source_link}.'/'.$cfName.") \n" }
+      if ($package->{web_source_link}) {
+        $mdFtxt .=	"* [Source Link](".$package->{web_source_link}.'/'.$cfName.") \n" }
 
-		$mdFtxt			.=	"\n".join("\n", @md)."\n";
+      $mdFtxt			.=	"\n".join("\n", @md)."\n";
 
-		print 			Dumper($mdFile);
-		open				(FILE, ">", $mdFile) || warn 'output file '.$mdFile.' could not be created.';
-		print				FILE  $mdFtxt;
-		close 			FILE;
+      print 			Dumper($mdFile);
+      open				(FILE, ">", $mdFile) || warn 'output file '.$mdFile.' could not be created.';
+      print				FILE  $mdFtxt;
+      close 			FILE;
 
-	}
+    }
+  }
 }
