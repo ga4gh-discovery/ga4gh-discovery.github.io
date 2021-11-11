@@ -6,3 +6,5 @@ pages/.DS_Store
 .jekyll-metadata
 Gemfile.lock
 ga4gh-discovery.github.io.iml
+categories/.DS_Store
+tags/.DS_Store
