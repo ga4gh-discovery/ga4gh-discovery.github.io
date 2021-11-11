@@ -33,9 +33,8 @@ The Beacon API is undergoing a major overhaul for its version 2 which is expecte
 * Responsible Discovery co-chair: [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
 * Product leads:
     - Jordi Rambla
-    - Tony Brooks
+    - Anthony Brookes
     - Juha Törnroos
-    - Gary Saunders (ELIXIR project coordinator)
 
 ##### Data Connect
 
