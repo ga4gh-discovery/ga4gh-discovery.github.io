@@ -1,0 +1,90 @@
+site_name: 'GA4GH :: Discovery'
+site_description: 'A Work Stream of the Global Alliance for Genomics and Health'
+site_author: Michael Baudis
+copyright: '&copy; Copyright 2023 GA4GH Contributors'
+repo_name: 'ga4gh-discovery.github.io'
+
+repo_url: https://github.com/ga4gh-discovery/ga4gh-discovery.github.io
+edit_uri: edit/main/docs/
+
+###############################################################################
+
+nav:
+  - 'Home': /
+  - News: news
+  - Contacts: contacts
+  - GA4GH Community Best Practices &#8599;: https://ga4gh-community-standards.github.io
+  - '{S}[B] Site &#8599;': https://schemablocks.org
+  - Beacon Project &#8599;: https://beacon-project.io
+  - Phenopackets &#8599;: https://phenopackets.org
+
+###############################################################################
+
+markdown_extensions:
+  - toc:
+      toc_depth: 2-3
+      permalink: true
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      hide_protocol: true
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.saneheaders
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - mdx_gh_links:
+      user: hCNV
+      repo: hcnv.github.io
+  - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+        options:
+          custom_icons:
+            - extra/.icons
+
+###############################################################################
+
+theme:
+  name: material
+  palette:
+    primary: light green
+    # scheme: slate
+  favicon: img/logo-schemablocks-no-text-50x50.png
+  logo: img/logo-GA4GH-white-text-670x160.png
+  icon:
+    repo: fontawesome/brands/github-alt
+    admonition:
+      example: octicons/list-ordered-24
+  features:
+    - content.tabs.link
+    - search.highlight
+    - search.share
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - toc.integrate
+  custom_dir: extra
+      
+plugins:
+    - search
+    - macros
+
+extra:
+  excerpt_separator: <!--more-->
+  blog_list_length: 100
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/ga4gh-discovery
+extra_css:
+  - css/theme_overrides.css
