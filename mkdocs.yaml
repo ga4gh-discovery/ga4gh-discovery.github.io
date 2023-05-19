@@ -60,7 +60,7 @@ theme:
   palette:
     primary: light green
     # scheme: slate
-  favicon: img/logo-schemablocks-no-text-50x50.png
+  favicon: img/favicon.ico
   logo: img/logo-GA4GH-white-text-670x160.png
   icon:
     repo: fontawesome/brands/github-alt
