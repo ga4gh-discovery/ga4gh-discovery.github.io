@@ -27,8 +27,18 @@
 
   {% for page in contacts_pages %}
     {% if not page.meta.is_contact %}
-      {% include "partials/blog_contact.html" %}
+      {% if not page.meta.is_gone %}
+        {% include "partials/blog_contact.html" %}
       {% endif %}
+    {% endif %}
+  {% endfor %}
+
+<h2>Alumni and Former Contributors</h2>
+
+  {% for page in (contacts_pages|sort(attribute="meta.date") | reverse ) %}
+    {% if page.meta.is_gone %}
+      {% include "partials/blog_contact.html" %}
+    {% endif %}
   {% endfor %}
 
 {% endblock %}
