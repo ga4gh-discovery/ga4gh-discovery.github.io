@@ -13,6 +13,10 @@
     background-position: right; 
 }
 
+.md-typeset h1 {
+    margin: 0 0 0.25em;
+}
+
 h2 {
     border-top:  #8bc34b thin solid;
     border-bottom:  #8bc34b thin solid;
