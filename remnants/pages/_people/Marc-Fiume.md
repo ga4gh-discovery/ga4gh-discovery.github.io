@@ -32,6 +32,6 @@ CEO, DNAstack
 
 email [Marc@dnastack.com](mailto:Marc@dnastack.com)
 
-web [DNAstack](http://dnastack.com)  
+web [DNAstack](https://dnastack.com)  
 web [OICR](https://oicr.on.ca/investigators/marc-fiume/)  
 

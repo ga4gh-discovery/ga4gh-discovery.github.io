@@ -5,7 +5,7 @@ path_element: news
 
 # GA4GH Discovery Work Stream
 
-The [GA4GH Discovery Work Stream](http://ga4gh-discovery.github.io) builds and coordinates standards for federated, secured networks of data and services, to form an “Internet of Genomics” for enabling data discovery and retrieval in health research and clinical genomics.
+The [GA4GH Discovery Work Stream](https://ga4gh-discovery.github.io) builds and coordinates standards for federated, secured networks of data and services, to form an “Internet of Genomics” for enabling data discovery and retrieval in health research and clinical genomics.
 
 The Discovery Work Stream is lead by Marc Fiume and Michael Baudis. For details on how this Work Stream operates please read the [Discovery Work Stream Organizational Structure & Vision document](https://docs.google.com/document/d/1WFjZ9yBx8Vxn97QORRNQN7O3DBnhpwEUX2mK7f2C4EA/edit?ts=59ed3535#).
 
@@ -28,9 +28,9 @@ The following products are currently under development for this Work Stream.
 
 A _Beacon_ is a federated, web-accessible service that can be queried for information about a specific genomic variant, e.g. a single nucleotide polymorphism (SNP/SNV) or a copy number variation (CNV), and reports about its existence in the queried resources. Current versions of the Beacon protocol support different usage scenarios and offer the opportunity to link to the matched data using e.g. a [_handover_](https://beacon-project.io/roadmap/handover.html) protocol.
 
-The Beacon API specification is a [__GA4GH approved standard__](https://www.ga4gh.org/genomic-data-toolkit/). It is being developed through the [ELIXIR Beacon project](http://beacon-project.io) and accessible there or directly trough its [repository](https://github.com/ga4gh-beacon/).
+The Beacon API specification is a [__GA4GH approved standard__](https://www.ga4gh.org/genomic-data-toolkit/). It is being developed through the [ELIXIR Beacon project](https://beacon-project.io) and accessible there or directly trough its [repository](https://github.com/ga4gh-beacon/).
 
-The Beacon API is undergoing a major overhaul for its version 2 which is expected to be launched in late 2021. Updated information can be found [on the project website](http://beacon-project.io) and in the various **v2** labeled repositories in its [Github space](https://github.com/ga4gh-beacon/).
+The Beacon API is undergoing a major overhaul for its version 2 which is expected to be launched in late 2021. Updated information can be found [on the project website](https://beacon-project.io) and in the various **v2** labeled repositories in its [Github space](https://github.com/ga4gh-beacon/).
 
 * Responsible Discovery co-chair: [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
 * Product leads:
@@ -67,7 +67,7 @@ Networks group works on a collection of standards enabling discovery of services
 
 SchemaBlocks represents a __cross work stream, cross driver project__ initiative to document object standards and prototypes, as well as common data formats and semantics used throughout the GA4GH ecosystem. While products and implementation may be completely based on SchemaBlocks models, this project does not attempt to develop a rigid, complete schema but rather to provide the object vocabulary and semantics for a large range of developments.
 
-More information about the _SchemaBlocks_ project as well as the current schema can be found on the project's site at [schemablocks.org](http://schemablocks.org).
+More information about the _SchemaBlocks_ project as well as the current schema can be found on the project's site at [schemablocks.org](https://schemablocks.org).
 
 * Responsible Discovery co-chair: [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
 * Product leads:

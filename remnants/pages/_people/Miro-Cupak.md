@@ -27,4 +27,4 @@ VP Engineering, DNAstack
 
 <!--more-->
 
-web [mirocupak.com](https://mirocupak.com/), [dnastack.com](http://dnastack.com)
+web [mirocupak.com](https://mirocupak.com/), [dnastack.com](https://dnastack.com)

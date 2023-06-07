@@ -28,7 +28,7 @@ and the overall connection to the Global Alliance for Genomics and Health (GA4GH
 
 #### Additional Links
 
-* [Presentation slides](http://info.baudisgroup.org/pdf/2021-04-20___Michael-Baudis__ELIXIR-Beacon__RDA.pdf)
-* [Beacon Website](http://beacon-project.io)
+* [Presentation slides](https://info.baudisgroup.org/pdf/2021-04-20___Michael-Baudis__ELIXIR-Beacon__RDA.pdf)
+* [Beacon Website](https://beacon-project.io)
 * [Beacon Development at Github](https://github.com/ga4gh-beacon)
 * [Beacon+ in Progenetix](https://progenetix.org/beaconplus-instances/beaconplus/)

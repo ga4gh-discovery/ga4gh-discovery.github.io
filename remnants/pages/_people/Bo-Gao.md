@@ -30,5 +30,5 @@ University of Zurich
 * data compatibility & integration
 
 email [bo@progenetix.org](mailto:bo@progenetix.org)  
-web [Bo Gao @ UZH](http://info.baudisgroup.org/group/Bo_Gao/)  
+web [Bo Gao @ UZH](https://info.baudisgroup.org/group/Bo_Gao/)  
 

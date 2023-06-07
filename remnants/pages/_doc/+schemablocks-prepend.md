@@ -11,4 +11,4 @@ SchemaBlocks is a “cross-workstreams, cross-drivers” initiative to document 
 
 <img style="float: left; margin: 20px 20px 10px 0px;" src="{{ "assets/img/logo-schemablocks-120x120.png" | relative_url}}" />
 
-The GA4GH __SchemaBlocks__ site can be accessed though the permanent link [schemablocks.org](http://schemablocks.org), with the code repositories residing on Github in the [ga4gh-schemablocks](https://github.com/ga4gh-schemablocks/) organisation.
+The GA4GH __SchemaBlocks__ site can be accessed though the permanent link [schemablocks.org](https://schemablocks.org), with the code repositories residing on Github in the [ga4gh-schemablocks](https://github.com/ga4gh-schemablocks/) organisation.

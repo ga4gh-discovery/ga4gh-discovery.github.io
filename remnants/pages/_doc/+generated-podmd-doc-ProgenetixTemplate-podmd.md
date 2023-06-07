@@ -28,7 +28,7 @@ Processing the input files is based on parameters provided in the "podmd.yaml"
 configuration file. Please have a look for examples there.
 
 For now, the functions of the script are optimised for use in the
-[Progenetix](http://info.progenetix.org) documentation environment but may be
+[Progenetix](https://info.progenetix.org) documentation environment but may be
 adapted for other purposes.
 
 The script itself contains an inline predefined minimal processing configuration

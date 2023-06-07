@@ -22,6 +22,6 @@ These API specifications are available through the new Beacon website which will
 More details can be found here:
 
 * ELIXIR [press release](https://www.elixir-europe.org/news/beacon-API-website)
-* New [Beacon website](http://beacon-project.io)
+* New [Beacon website](https://beacon-project.io)
 * [Beacon v0.4 release](https://github.com/ga4gh/beacon-team/releases/tag/v0.4.0)
 * [development site](https://github.com/ga4gh-beacon/specification)
