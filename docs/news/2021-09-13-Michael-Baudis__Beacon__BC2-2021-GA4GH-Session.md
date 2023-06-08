@@ -14,6 +14,6 @@ links:
 
 #### [BC<sup>2</sup> Basel 2021](https://www.bc2.ch/tutorials-workshops)
 
-![BC2 logo](https://info.baudisgroup.org/img/logo_bc2.svg){: style="float: right; width: 200px; margin-top: -150px;"}During the "Federating computational analyses with GA4GH standards" workshop at
+![BC2 logo](/img/logo_bc2.svg){: style="float: right; width: 200px; margin-top: -150px;"}During the "Federating computational analyses with GA4GH standards" workshop at
 BC<sup>2</sup> 2021 Michael presented history and the current status of the Beacon
 project, as well as its integration with specific data resources and analysis initiatives.

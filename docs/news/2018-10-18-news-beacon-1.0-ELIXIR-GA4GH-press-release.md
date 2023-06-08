@@ -1,9 +1,9 @@
 ---
 title: 'Press Release: GA4GH and ELIXIR Release Beacon API v1...'
 description: GA4GH and ELIXIR Release Beacon API v1 with increased security measures
+date: 2018-10-18
 template: post.html
 ---
-
 
 ELIXIR and the Global Alliance for Genomics and Health (GA4GH) have announced the release of the first genomic data interoperability standard from the GA4GH 2018 Strategic Roadmap.
 

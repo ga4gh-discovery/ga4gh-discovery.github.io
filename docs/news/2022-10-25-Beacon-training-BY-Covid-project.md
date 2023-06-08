@@ -2,14 +2,8 @@
 title: 'Beacon training course: How to make COVID-19 sensitive data discoverable using Beacons'
 date: 2022-10-25
 template: post.html
-author: 
+authors: 
   - "@AnaT-DCO"
-excerpt_separator: <!--more-->
-www_links_formatted:
-category:
-  - events
-tags:
-  - events
 ---
 
 

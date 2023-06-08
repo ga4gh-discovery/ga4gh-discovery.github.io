@@ -1,6 +1,7 @@
 ---
 title: 'DNAstack Launches Clinical Evidence Beacons'
 description: DNAstack Launches Clinical Evidence Beacons to Drive Crowdsourcing for Genetic Disease Discovery
+date: 2019-10-15
 authors:
   - "@mbaudis"
 template: post.html

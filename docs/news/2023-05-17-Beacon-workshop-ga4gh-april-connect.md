@@ -2,7 +2,7 @@
 title: 'Beacon v2 standard highlighted during the GA4GH April Connect 2023'
 date: 2023-05-16
 template: post.html
-author: 
+authors: 
   - "@AnaT-DCO"
 ---
 

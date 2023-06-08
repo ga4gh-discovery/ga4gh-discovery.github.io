@@ -1,17 +1,13 @@
 ---
-title: 'Beacon v2 at the International Congress of Human Genetics with hands-on sessions on Discovery'
+title: 'Beacon v2 at the International Congress of Human Genetics'
+description: Hands-on sessions on genomic data discovery
 date: 2023-01-24
 template: post.html
 author: 
   - "@AnaT-DCO"
 ---
 
-
 These Hands-on workshops will take place on February the 26th and 27th, in the framework of the [International Congress of Human Genetics (ICHG)](https://www.ichg2023.com/), that is being held in Cape Town from February 22 – 26.
-
-<figure>
-<img src="/img/Discovery-Workshop_Federated-data analyses_ICHG.jfif" style="width: 520px;" />
-</figure>
 
 <!--more-->
 

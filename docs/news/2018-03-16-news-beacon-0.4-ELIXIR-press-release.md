@@ -1,23 +1,19 @@
 ---
 title: 'Global network of Beacons - Beacon v0.4'
-layout: default
-author: mbaudis
-excerpt_separator: <!--more-->
-www_link: https://www.elixir-europe.org/news/beacon-API-website
-category:
-  - news
-tags:
-  - beacon
-  - press
+description: Global network of Beacons lighting up the world of genomic data
+template: post.html
+date: 2018-03-18
+authors:
+  - '@mbaudis'
 ---
-
-## Global network of Beacons lighting up the world of genomic data
 
 The Beacon Project has released new Beacon API v0.4 specifications to provide greater search functions and richer search results. 
 
-<!--more-->
+These API specifications are available through the new Beacon website which will provide up-to-date support and regular updates on the project developments. v0.4 of Beacon has been developed with
+support from ELIXIR and constitutes the basis for the upcoming
+GA4GH approval process towards a "v1".
 
-These API specifications are available through the new Beacon website which will provide up-to-date support and regular updates on the project developments.
+<!--more-->
 
 More details can be found here:
 
