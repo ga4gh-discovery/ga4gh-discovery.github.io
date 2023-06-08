@@ -13,10 +13,10 @@ nav:
   - 'Home': /
   - News: news
   - Contacts: contacts
-  - GA4GH Community Best Practices &#8599;: https://ga4gh-community-standards.github.io
-  - '{S}[B] Site &#8599;': https://schemablocks.org
   - Beacon Project &#8599;: https://beacon-project.io
-  - Phenopackets &#8599;: https://phenopackets.org
+  - Data Connect &#8599;: http://ga4gh-discovery.github.io/data-connect/
+  - 'GA4GH Community Standards &#8599;': https://ga4gh-community-standards.github.io
+  - '{S}[B] Site &#8599;': https://schemablocks.org
 
 ###############################################################################
 

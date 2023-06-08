@@ -26,25 +26,27 @@ The following products are currently under development for this Work Stream.
 
 ### Beacon API
 
-A _Beacon_ is a federated, web-accessible service that can be queried for information about a specific genomic variant, e.g. a single nucleotide polymorphism (SNP/SNV) or a copy number variation (CNV), and reports about its existence in the queried resources. Current versions of the Beacon protocol support different usage scenarios and offer the opportunity to link to the matched data using e.g. a [_handover_](https://beacon-project.io/roadmap/handover.html) protocol.
+The Beacon protocol defines the protocol details for implementing programming
+interfaces ("API") on genomic data resources, to enable the federated discovery and
+potential retrieval of genomic variations and associated biomedical information. 
+The current version 2 ("v2") of the Beacon protocol is a [__GA4GH approved standard__](https://www.ga4gh.org/genomic-data-toolkit/). It is being developed through the [ELIXIR Beacon project](https://beacon-project.io) and accessible there or directly trough its [repository](https://github.com/ga4gh-beacon/beacon-v2/). Extensive documentation of the protocol and 
+its implementation options is available at [docs.genomebeacons.org](https://docs.genomebeacons.org).
 
-The Beacon API specification is a [__GA4GH approved standard__](https://www.ga4gh.org/genomic-data-toolkit/). It is being developed through the [ELIXIR Beacon project](https://beacon-project.io) and accessible there or directly trough its [repository](https://github.com/ga4gh-beacon/).
-
-The Beacon API is undergoing a major overhaul for its version 2 which is expected to be launched in late 2021. Updated information can be found [on the project website](https://beacon-project.io) and in the various **v2** labeled repositories in its [Github space](https://github.com/ga4gh-beacon/).
+#### Contacts
 
 * Responsible Discovery co-chair: [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
 * Product leads:
     - Jordi Rambla
     - Anthony Brookes
-    - Juha Törnroos
+    - Michael Baudis
 
 ### Data Connect
 
-[Data Connect](https://github.com/ga4gh-discovery/data-connect/) is an upcoming standard for searching of biomedical data with support for federation across organizational boundaries.
+[Data Connect](https://github.com/ga4gh-discovery/data-connect/) is a standard for
+biomedical data retrieval and analysis with support for federation across organizational boundaries.
 
-Contacts:
+#### Contacts
 
-* Responsible Discovery co-chair: [Marc Fiume](/people/Marc-Fiume/)
 * Product leads
     - [Miro Cupak](/people/Miro-Cupak/)
     - Aaron Kemp
@@ -57,21 +59,36 @@ Networks group works on a collection of standards enabling discovery of services
 - [Service Info](https://github.com/ga4gh-discovery/ga4gh-service-info) - API specification for services to advertise information about themselves.
 
 
-## Contacts:
+#### Contacts
 
-* Responsible Discovery co-chair: [Marc Fiume](/people/Marc-Fiume/)
 * Product leads
     - [Miro Cupak](/people/Miro-Cupak/)
 
 ## {S}[B] SchemaBlocks
 
-SchemaBlocks represents a __cross work stream, cross driver project__ initiative to document object standards and prototypes, as well as common data formats and semantics used throughout the GA4GH ecosystem. While products and implementation may be completely based on SchemaBlocks models, this project does not attempt to develop a rigid, complete schema but rather to provide the object vocabulary and semantics for a large range of developments.
+SchemaBlocks represents a __cross work stream, cross driver project__ initiative to document object standards and prototypes with potenial use throughout the GA4GH ecosystem. This
+project does not attempt to develop a rigid, complete schema but rather to provide the object vocabulary and semantics for a large range of developments.
 
 More information about the _SchemaBlocks_ project as well as the current schema can be found on the project's site at [schemablocks.org](https://schemablocks.org).
+
+Before 2023 the [{S}[B]]((https://schemablocks.org)) site did also contain
+documentation about common GA4GH standards and practices related to genomics. This
+part has now been moved to the [ga4gh-community-standards](http://ga4gh-community-standards.github.io)
+site.
+
+#### Contacts
 
 * Responsible Discovery co-chair: [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
 * Product leads:
     - Melanie Courtot
     - Michael Baudis
+
+## DaMaSC - Data Models and Schema Consensus Group
+
+#### Contacts
+
+* Product lead:
+    - Kathy Reinold
+
 
 ## News and Announcements
