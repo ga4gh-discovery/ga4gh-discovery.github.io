@@ -64,6 +64,13 @@ Networks group works on a collection of standards enabling discovery of services
 * Product leads
     - [Miro Cupak](/people/Miro-Cupak/)
 
+### DaMaSC - Data Models and Schema Consensus Group
+
+#### Contact
+
+* Product lead:
+    - Kathy Reinold
+
 ### {S}[B] SchemaBlocks
 
 SchemaBlocks represents a __cross work stream, cross driver project__ initiative to document object standards and prototypes with potenial use throughout the GA4GH ecosystem. This
@@ -82,13 +89,6 @@ site.
 * Product leads:
     - Melanie Courtot
     - Michael Baudis
-
-### DaMaSC - Data Models and Schema Consensus Group
-
-#### Contact
-
-* Product lead:
-    - Kathy Reinold
 
 
 ## News and Announcements
