@@ -76,7 +76,7 @@ documentation about common GA4GH standards and practices related to genomics. Th
 part has now been moved to the [ga4gh-community-standards](http://ga4gh-community-standards.github.io)
 site.
 
-#### Contacts
+#### Contact
 
 * Responsible Discovery co-chair: [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
 * Product leads:
