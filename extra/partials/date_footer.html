@@ -1,0 +1,8 @@
+<div class="date-footer">
+  {% if post_page.meta.date %}
+  <span class="twemoji">
+    {% include ".icons/octicons/calendar-24.svg" %}
+  </span>
+  {{ post_page.meta.date.strftime("%B %d, %Y") }}
+  {% endif %}
+</div>

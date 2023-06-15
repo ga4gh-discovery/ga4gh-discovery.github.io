@@ -19,13 +19,31 @@
 
 h2 {
     border-top:  #8bc34b thin solid;
-    border-bottom:  #8bc34b thin solid;
+/*    border-bottom:  #8bc34b thin solid;*/
+    border-left:  #8bc34b thick solid;
+    padding-top:  2px;
+    padding-left:  8px;
+}
+
+.md-typeset h3 {
+    margin: 0 0 0.25em;
+    border-left:  #8bc34b solid;
+    padding-top:  2px;
+    padding-left:  8px;
 }
 
 aside.blog-post-aside {
+    font-size:  0.8em;
     border-top:  #8bc34b thin solid;
     margin-top:  24px;
-    padding-top:  12px;
+    margin-bottom:  -10px;
+    border-left:  #8bc34b solid;
+    padding-top:  6px;
+    padding-left:  8px;
+}
+
+div.date-footer {
+    font-size:  0.8em;
 }
 
 div.contact_spacer {
