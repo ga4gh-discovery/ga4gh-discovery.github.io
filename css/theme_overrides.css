@@ -1,0 +1,79 @@
+:root {
+    --md-accent-fg-color: #8bc34b;
+    --md-accent-font-color: #8bc34b;
+}
+
+.md-grid {
+  max-width: 1024px; 
+}
+
+.md-header__source {
+    background-image: url("/img/logo-ga4gh-circle-42x42.png");
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+
+.md-typeset h1 {
+    margin: 0 0 0.25em;
+}
+
+h2 {
+    border-top:  #8bc34b thin solid;
+/*    border-bottom:  #8bc34b thin solid;*/
+    border-left:  #8bc34b thick solid;
+    padding-top:  2px;
+    padding-left:  8px;
+}
+
+.md-typeset h3 {
+    margin: 0 0 0.25em;
+    border-left:  #8bc34b solid;
+    padding-top:  2px;
+    padding-left:  8px;
+}
+
+aside.blog-post-aside {
+    font-size:  0.8em;
+    border-top:  #8bc34b thin solid;
+    margin-top:  24px;
+    margin-bottom:  -10px;
+    border-left:  #8bc34b solid;
+    padding-top:  6px;
+    padding-left:  8px;
+}
+
+div.date-footer {
+    font-size:  0.8em;
+}
+
+div.contact_spacer {
+    display:  block;
+    height:  20px;
+}
+
+h3.title_news {
+    margin-top:  10px;
+    margin-bottom:  0px;
+}
+
+div.tabbed-set {
+    background-color:  #fafafa;
+}
+
+.tabbed-content {
+    padding:  5px;
+}
+
+li li {
+    list-style-type: circle;
+}
+
+li li li {
+    list-style-type: "–";
+    font-size: 0.9em;
+}
+
+.mermaid {
+  display: flex;
+  justify-content: center;
+}
